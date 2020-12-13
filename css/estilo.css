@@ -9,14 +9,20 @@ h1, h2, h3 {
 }
 
 .botao {
-    color: rgb(62, 63, 65);
+    color: rgb(28, 35, 39);
     text-decoration: none;
     padding: 10px 30px;
-    background-color: aqua;
+    background-color: rgb(13, 241, 241);
     font-weight: bold;
     font-size: .9em;
     border-radius: 5px;
     box-shadow: rgb(28, 165, 165) 1px 1px 5px;
+    
+}
+
+.botao:hover{
+    background-color: rgb(4, 88, 84);
+    color: white;
 }
 
 nav {
@@ -87,6 +93,38 @@ header p {
     margin-right: 5%;
     padding: 2%;
 }
+
+input {
+    width: 100%;
+  }
+
+  input[type=text], input[type=email] {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+
+  textarea {
+    width: 70%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+  }
+
+  input[type=button], input[type=submit], input[type=reset] {
+    width: 20%;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
 
 #sobre {
     display: flex;
