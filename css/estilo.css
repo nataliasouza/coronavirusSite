@@ -29,7 +29,7 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #040479;
+    background-color: #000058;
 }
 
 nav > a {
@@ -132,7 +132,7 @@ input[type=button], input[type=submit], input[type=reset] {
     align-items: center;
     text-align: center;
     padding: 40px;
-    background-color:  #040479;
+    background-color:  #051f4e;
     color: aliceblue;
 }
 
